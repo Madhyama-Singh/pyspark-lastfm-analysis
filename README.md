@@ -1,11 +1,24 @@
 # pyspark-lastfm-analysis
-# 🎵 Distributed Music Listening Analysis with PySpark
 
-This project explores how to use PySpark for distributed analysis on a large-scale Last.fm dataset. It covers data cleaning, querying, merging, and visualization, all done in Google Colab.
+This is a **Coursera-based academic project** focusing on distributed data analysis using **PySpark** on large-scale music listening data from Last.fm.
 
-## 📊 Datasets
-- `listenings.csv`: Contains user listening history with user_id, artist, track, date
-- `genre.csv`: Provides genre classification for each track
+---
+
+## 🧠 Project Objective
+
+Analyze large datasets of music listening history using PySpark in a distributed environment (Google Colab), uncover listening patterns, and visualize trends effectively.
+
+---
+
+## 📦 Datasets
+
+Due to size and licensing, datasets are **not included in this repository**. Please refer to Coursera’s course instructions to access the data.
+
+After downloading, place the following files in the `data/` folder:
+- `listenings.csv`
+- `genre.csv`
+
+--- 
 
 ## 📚 Features
 - PySpark setup on Colab
@@ -13,3 +26,24 @@ This project explores how to use PySpark for distributed analysis on a large-sca
 - Extracting patterns like most listened artists, top tracks per user, etc.
 - Genre-wise distribution of tracks
 - Visualizing results using Matplotlib
+
+---
+
+## 💻 Technologies Used
+
+- **PySpark**
+- **Google Colab**
+- **Matplotlib**
+- **Google Drive Integration**
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Open the notebook in Google Colab
+2. Mount your Google Drive
+3. Upload the datasets to the specified path
+4. Run the notebook step-by-step
+
+---
+
